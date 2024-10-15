@@ -1,5 +1,5 @@
 # S2.1-Basic_JS_exercises-N.★★★ <a href="https://github.com/LLuisPP/ITA_FrontEnd"> <img width="80" align="right" alt="ITAcademy" src="https://github.com/user-attachments/assets/1ecb00ab-82bd-4c76-9fe4-8ab273b8cc3e"></a>
-In this exercise, you will have to solve Basic exercises using Javascript.
+In this exercise, you will have to solve basic exercises using Javascript.
 
 <h2>💻 Technologies Used</h2>
 
@@ -22,16 +22,10 @@ In this exercise, you will have to solve Basic exercises using Javascript.
 
 <h2>📋 Requirements</h2>
 
-> [!WARNING]
-> You will need to install node.js and bootstrap and sass to install and execute this sprint
+This exercise doesn't need any aditional software.
 
 <div align="left">
-Install bootstrap (if needed):
-  
-`````
-npm install bootstrap
-`````
-  
+
 Clone this repository:
   
 `````
@@ -47,32 +41,14 @@ cd ../FolderName
 
 <h2>🛠️ Installation</h2>
 
-> [!IMPORTANT]
-> Be sure you have installed required software, see requirements
-
-<div align="left">
-Download packages and dependecies:
-  
-`````
-npm install
-`````
-Compile the css file using:
-`````
-npm run build-css
-`````
-Use watch to refresh on changing values:
-`````
-sass --watch styles.scss styles.css
-`````
-
-
-</div>
+This exercise doesn't need to be installed.
 
 <h2>▶️ Execution</h2>
 
 - Double click on index.html
-- Resize display: web view > tablet view > mobile view
-- Test responsive
+- Open developer tools
+- Click on `Console` tab
+- Check results
 
 > [!NOTE]
 > Use developer tools from your browser (F12)
@@ -86,7 +62,7 @@ N/A
 <h2>Results vs expected results</h2>
 
 > [!Tip]
-> Key concepts: `Bootstrap components`, `grid syntax`, `@mixin / @include`, `.class::before{}`, `@media queries`, `grid | container > row > col`
+> Key concepts: `arrow=>function`, `javascript syntax`, `html>scripts`
 
 <div align="center">
 <table>
