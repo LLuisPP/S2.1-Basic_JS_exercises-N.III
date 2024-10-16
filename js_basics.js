@@ -39,7 +39,7 @@ class person {
         this.name = (name);
     }
     greet = () => {
-        console.log(`Hola $(this.name) ! Bienvenido !`)
+        console.log(`Hola ${this.name} !Bienvenido!`)
     }
 }
 let name1 = new person('Juan');
@@ -48,6 +48,12 @@ name1.greet();
 
 // Exercise 4
 console.log("| 1.1 Ex 4 N★★☆ | -------------------------------------------");
+// Exercise 4
+// Arrow function inside a loop: Create a function named printNumbers that accepts an array of numbers 
+// and uses a for loop to print each number to the console using an arrow function.
+
+
+
 
 // Exercise 5
 console.log("| 1.1 Ex 5 N★★★ | -------------------------------------------");
