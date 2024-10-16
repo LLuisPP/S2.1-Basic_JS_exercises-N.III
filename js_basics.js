@@ -38,7 +38,7 @@ class person {
     greet = () => {
         console.log(`Hola ${this.name} !Bienvenido!`)
     }
-}
+};
 let name1 = new person('Juan');
 name1.greet();
 
@@ -53,7 +53,7 @@ function printNumbers(numbers) {
     for (let i = 0; i < numbers.length; i++) {
         (() => (console.log(numbers[i])))();
     }
-}
+};
 printNumbers(num_array);
 
 // Exercise 5
@@ -72,19 +72,32 @@ console.log("| 1.2 Ex 1 N★☆☆ | -------------------------------------------
 // Basic ternary operator: Write a function canDrive that accepts age as a parameter 
 // and uses the ternary operator to determine if the user can drive. If the age is 18 or older, 
 // it should return 'You can drive'. Otherwise, it should return 'You cannot drive'.
-
 let age1 = 36;
 let age2 = 17;
 
 function age_filter2(age) {
     filtered = age >= 18 ? `Person with age ${age} can drive vehicles` : `Person with ${age} can NOT drive vehicles`;
     console.log(filtered);
-}
+};
 
 age_filter2(age1);
 age_filter2(age2);
 
+// Exercise 2
 console.log("| 1.2 Ex 2 N★☆☆ | -------------------------------------------");
+// Use with comparison operators: Write an expression that uses the ternary operator to determine 
+// which of the two given numbers (num1 and num2) is larger. If num1 is larger, return 'num1 is larger'. 
+// Otherwise, return 'num2 is larger'.
+let num_a = 73;
+let num_b = 100;
+
+function compare_numbers(numberA, numberB) {
+    compare = numberA > numberB ? `The number ${numberA} is bigger than ${numberB}` : `The number ${numberA} is NOT bigger than ${numberB}`
+    console.log(compare);
+};
+compare_numbers(num_a, num_b);
+
+
 console.log("| 1.2 Ex 3 N★★☆ | -------------------------------------------");
 console.log("| 1.2 Ex 4 N★★★ | -------------------------------------------");
 
