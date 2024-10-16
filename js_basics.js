@@ -1,7 +1,9 @@
 
-// Exercici 1
-// Conversió de funcions: Tens una funció add que accepta dos paràmetres i retorna la seva suma.
-// Converteix-la en una funció de fletxa. Per exemple: function add(a, b) {return a + b;}.
+// Exercise 1
+console.log("| 1.1 Ex 1 N★☆☆ | -------------------------------------------");
+// Function conversion: You have a function 'add' that accepts two parameters and returns their sum.
+// Convert it into an arrow function. For example: function add(a, b) {return a + b;}.
+
 let a = 6;
 let b = 2;
 let arrow_function;
@@ -11,9 +13,11 @@ arrow_function = (a, b) => a + b;
 console.log(`Variable values are a = ${a} and b = ${b}`);
 console.log("Result of ARROW FUNCTION (=>) = ", arrow_function(a, b));
 
-// Exercici 2
-// Funció de fletxa sense paràmetres: Crea una funció de fletxa anomenada randomNumber que
-// no necessiti paràmetres i que retorni un número aleatori entre 0 i 100.
+// Exercise 2
+console.log("| 1.1 Ex 2 N★☆☆ | -------------------------------------------");
+// Arrow function without parameters: Create an arrow function called randomNumber that
+// doesn't need parameters and returns a random number between 0 and 100.
+
 let random_number;
 
 function randomNumber() {
@@ -24,10 +28,13 @@ random_number = randomNumber();
 
 console.log("Result of RANDOM_NUMBER = ", random_number);
 
-// Exercici 3
-// Ús de 'this' en les funcions de fletxa: Crea una classe person que tingui una propietat 
-// name i una funció greet que utilitzi una funció de fletxa. La funció ha d'imprimir una salutació
-// que inclogui el nom de la persona. Per exemple: console.log(Hola, ${this.name});.
+// Exercise 3
+console.log("| 1.1 Ex 3 N★☆☆ | -------------------------------------------");
+// Use of 'this' in arrow functions: Create a class 'Person' that has a property 
+// 'name' and a 'greet' function that uses an arrow function. 
+// The function should print a greeting that includes the person's name. 
+// For example: console.log(Hello, ${this.name});.
+
 class person {
     constructor (name) {
         this.name = name;
@@ -39,4 +46,56 @@ function greet() {
 }
 
 let name1 = new person('Juan')
-name1.greet();
+// name1.greet();
+
+
+
+
+// Exercise 4
+console.log("| 1.1 Ex 4 N★★☆ | -------------------------------------------");
+
+// Exercise 5
+console.log("| 1.1 Ex 5 N★★★ | -------------------------------------------");
+
+
+
+console.log("| 1.2 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("| 1.2 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("| 1.2 Ex 3 N★★☆ | -------------------------------------------");
+console.log("| 1.2 Ex 4 N★★★ | -------------------------------------------");
+
+
+console.log("| 1.3 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("| 1.3 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("| 1.3 Ex 3 N★★☆ | -------------------------------------------");
+console.log("| 1.3 Ex 4 N★★☆ | -------------------------------------------");
+console.log("| 1.3 Ex 5 N★★★ | -------------------------------------------");
+
+console.log("| 1.4 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("| 1.4 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("| 1.4 Ex 3 N★★☆ | -------------------------------------------");
+console.log("| 1.4 Ex 4 N★★☆ | -------------------------------------------");
+console.log("| 1.4 Ex 5 N★★★ | -------------------------------------------");
+console.log("| 1.4 Ex 6 N★★★ | -------------------------------------------");
+
+console.log("| 1.5 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("| 1.5 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("| 1.5 Ex 3 N★☆☆ | -------------------------------------------");
+console.log("| 1.5 Ex 4 N★☆☆ | -------------------------------------------");
+console.log("| 1.5 Ex 5 N★★☆ | -------------------------------------------");
+console.log("| 1.5 Ex 6 N★★★ | -------------------------------------------");
+
+console.log("| 1.6 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("| 1.6 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("| 1.6 Ex 3 N★☆☆ | -------------------------------------------");
+console.log("| 1.6 Ex 4 N★★☆ | -------------------------------------------");
+console.log("| 1.6 Ex 5 N★★☆ | -------------------------------------------");
+console.log("| 1.6 Ex 6 N★★★ | -------------------------------------------");
+
+console.log("| 1.7 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("| 1.7 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("| 1.7 Ex 3 N★☆☆ | -------------------------------------------");
+console.log("| 1.7 Ex 4 N★☆☆ | -------------------------------------------");
+console.log("| 1.7 Ex 5 N★★☆ | -------------------------------------------");
+console.log("| 1.7 Ex 6 N★★★ | -------------------------------------------");
+
