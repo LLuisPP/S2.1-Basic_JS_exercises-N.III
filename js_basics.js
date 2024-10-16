@@ -97,8 +97,16 @@ function compare_numbers(numberA, numberB) {
 };
 compare_numbers(num_a, num_b);
 
-
+// Exercise 3
 console.log("| 1.2 Ex 3 N★★☆ | -------------------------------------------");
+// Chained ternary operators: Write an expression that uses chained ternary operators to determine 
+// if a number is positive, negative, or zero.
+// Ternary operator with functions: Create a function findMax that accepts three parameters (a, b, c) 
+// and uses the ternary operator to determine the maximum value.
+
+
+
+// Exercise 4
 console.log("| 1.2 Ex 4 N★★★ | -------------------------------------------");
 
 
