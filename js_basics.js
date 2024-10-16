@@ -51,8 +51,14 @@ console.log("| 1.1 Ex 4 N★★☆ | -------------------------------------------
 // Exercise 4
 // Arrow function inside a loop: Create a function named printNumbers that accepts an array of numbers 
 // and uses a for loop to print each number to the console using an arrow function.
+let num_array = [1,3,34,49,45,7];
 
-
+function printNumbers(numbers) {
+    for (let i = 0; i < numbers.length; i++) {
+        (() => (console.log(numbers[i])))();
+    }
+}
+printNumbers(num_array);
 
 
 // Exercise 5
