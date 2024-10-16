@@ -125,7 +125,9 @@ determine_value(findMax(n_1, n_2, n_3));
 
 // Exercise 4
 console.log("| 1.2 Ex 4 N★★★ | -------------------------------------------");
-
+// Ternary operator inside a loop: Write a function parOImpar that accepts an array of numbers 
+// and uses a loop to iterate through the array. Inside the loop, 
+// use the ternary operator to determine if each number is even or odd.
 
 console.log("| 1.3 Ex 1 N★☆☆ | -------------------------------------------");
 console.log("| 1.3 Ex 2 N★☆☆ | -------------------------------------------");
