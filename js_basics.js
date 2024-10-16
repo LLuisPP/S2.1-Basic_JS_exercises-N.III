@@ -9,9 +9,9 @@ let b = 2;
 let arrow_function;
 
 arrow_function = (a, b) => a + b;
-
 console.log(`Variable values are a = ${a} and b = ${b}`);
-console.log("Result of ARROW FUNCTION (=>) = ", arrow_function(a, b));
+console.log("Result of ARROW FUNCTION (a, b) => (a + b) = ", arrow_function(a, b));
+
 
 // Exercise 2
 console.log("| 1.1 Ex 2 N★☆☆ | -------------------------------------------");
@@ -23,10 +23,9 @@ let random_number;
 function randomNumber() {
     return(Math.floor(Math.random() * 100));
 };
-
 random_number = randomNumber();
-
 console.log("Result of RANDOM_NUMBER = ", random_number);
+
 
 // Exercise 3
 console.log("| 1.1 Ex 3 N★☆☆ | -------------------------------------------");
@@ -37,18 +36,14 @@ console.log("| 1.1 Ex 3 N★☆☆ | -------------------------------------------
 
 class person {
     constructor (name) {
-        this.name = name;
+        this.name = (name);
     }
-};
-
-function greet() {
-    () => console.log(`Hola ${this.name} bienvenido !`);
+    greet = () => {
+        console.log(`Hola $(this.name) ! Bienvenido !`)
+    }
 }
-
-let name1 = new person('Juan')
-// name1.greet();
-
-
+let name1 = new person('Juan');
+name1.greet();
 
 
 // Exercise 4
