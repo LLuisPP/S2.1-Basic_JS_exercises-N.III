@@ -1,4 +1,3 @@
-
 // Exercise 1
 console.log("| 1.1 Ex 1 N★☆☆ | -------------------------------------------");
 // Function conversion: You have a function 'add' that accepts two parameters and returns their sum.
@@ -12,7 +11,6 @@ arrow_function = (a, b) => a + b;
 console.log(`Variable values are a = ${a} and b = ${b}`);
 console.log("Result of ARROW FUNCTION (a, b) => (a + b) = ", arrow_function(a, b));
 
-
 // Exercise 2
 console.log("| 1.1 Ex 2 N★☆☆ | -------------------------------------------");
 // Arrow function without parameters: Create an arrow function called randomNumber that
@@ -25,7 +23,6 @@ function randomNumber() {
 };
 random_number = randomNumber();
 console.log("Result of RANDOM_NUMBER = ", random_number);
-
 
 // Exercise 3
 console.log("| 1.1 Ex 3 N★☆☆ | -------------------------------------------");
@@ -45,7 +42,6 @@ class person {
 let name1 = new person('Juan');
 name1.greet();
 
-
 // Exercise 4
 console.log("| 1.1 Ex 4 N★★☆ | -------------------------------------------");
 // Exercise 4
@@ -60,13 +56,34 @@ function printNumbers(numbers) {
 }
 printNumbers(num_array);
 
-
 // Exercise 5
 console.log("| 1.1 Ex 5 N★★★ | -------------------------------------------");
+// Exercise 5
+// Arrow function with 'setTimeout': Create an arrow function that prints a message to the console 
+// after waiting for 3 seconds.
 
+setTimeout(() => {console.log('This message is | 1.1 Ex 5 N★★★ | with 3000ms of delay')}, 3000);
 
+/**************************************************************************/
+/**************************************************************************/
 
+// Exercise 1
 console.log("| 1.2 Ex 1 N★☆☆ | -------------------------------------------");
+// Basic ternary operator: Write a function canDrive that accepts age as a parameter 
+// and uses the ternary operator to determine if the user can drive. If the age is 18 or older, 
+// it should return 'You can drive'. Otherwise, it should return 'You cannot drive'.
+
+let age1 = 36;
+let age2 = 17;
+
+function age_filter2(age) {
+    filtered = age >= 18 ? `Person with age ${age} can drive vehicles` : `Person with ${age} can NOT drive vehicles`;
+    console.log(filtered);
+}
+
+age_filter2(age1);
+age_filter2(age2);
+
 console.log("| 1.2 Ex 2 N★☆☆ | -------------------------------------------");
 console.log("| 1.2 Ex 3 N★★☆ | -------------------------------------------");
 console.log("| 1.2 Ex 4 N★★★ | -------------------------------------------");
