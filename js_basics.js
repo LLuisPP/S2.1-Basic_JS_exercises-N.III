@@ -103,7 +103,24 @@ console.log("| 1.2 Ex 3 N★★☆ | -------------------------------------------
 // if a number is positive, negative, or zero.
 // Ternary operator with functions: Create a function findMax that accepts three parameters (a, b, c) 
 // and uses the ternary operator to determine the maximum value.
+let n_1 = -12;
+let n_2 = 73;
+let n_3 = 36;
 
+function determine_value(number) {
+    value = number < 0 
+    ? `The number ${number} is negative` 
+    : number === 0 
+    ? `The number ${number} is zero` 
+    : `The number ${number} is positive`;
+    console.log(value);
+};
+determine_value(n_3);
+
+function findMax(n_1, n_2, n_3) {
+    return n_1 >= n_2 && n_1 >= n_3 ? n_1 : n_2 >= n_1 && n_2 >= n_3 ? n_2 : n_3;
+}
+determine_value(findMax(n_1, n_2, n_3));
 
 
 // Exercise 4
