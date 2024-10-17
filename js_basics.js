@@ -3,7 +3,7 @@
 /**************************************************************************/
 
 // Exercise 1
-console.log("| 1.1 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 1 N★☆☆ | -------------------------------------------");
 // Function conversion: You have a function 'add' that accepts two parameters and returns their sum.
 // Convert it into an arrow function. For example: function add(a, b) {return a + b;}.
 
@@ -16,7 +16,7 @@ console.log(`Variable values are a = ${a} and b = ${b}`);
 console.log("Result of ARROW FUNCTION (a, b) => (a + b) = ", arrow_function(a, b));
 
 // Exercise 2
-console.log("| 1.1 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 2 N★☆☆ | -------------------------------------------");
 // Arrow function without parameters: Create an arrow function called randomNumber that
 // doesn't need parameters and returns a random number between 0 and 100.
 
@@ -29,7 +29,7 @@ random_number = randomNumber();
 console.log("Result of RANDOM_NUMBER = ", random_number);
 
 // Exercise 3
-console.log("| 1.1 Ex 3 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 3 N★☆☆ | -------------------------------------------");
 // Use of 'this' in arrow functions: Create a class 'Person' that has a property 
 // 'name' and a 'greet' function that uses an arrow function. 
 // The function should print a greeting that includes the person's name. 
@@ -47,7 +47,7 @@ let name1 = new person('Juan');
 name1.greet();
 
 // Exercise 4
-console.log("| 1.1 Ex 4 N★★☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 4 N★★☆ | -------------------------------------------");
 // Exercise 4
 // Arrow function inside a loop: Create a function named printNumbers that accepts an array of numbers 
 // and uses a for loop to print each number to the console using an arrow function.
@@ -61,7 +61,7 @@ function printNumbers(numbers) {
 printNumbers(num_array);
 
 // Exercise 5
-console.log("| 1.1 Ex 5 N★★★ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 5 N★★★ | -------------------------------------------");
 console.log("Scroll down and wait 3000ms, result it will appear at the bottom");
 // Exercise 5
 // Arrow function with 'setTimeout': Create an arrow function that prints a message to the console 
@@ -74,7 +74,7 @@ setTimeout(() => {console.log('Delayed output | 1.1.5 | with 3000ms of delay')},
 /**************************************************************************/
 
 // Exercise 1
-console.log("| 1.2 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 1 N★☆☆ | -------------------------------------------");
 // Basic ternary operator: Write a function canDrive that accepts age as a parameter 
 // and uses the ternary operator to determine if the user can drive. If the age is 18 or older, 
 // it should return 'You can drive'. Otherwise, it should return 'You cannot drive'.
@@ -90,7 +90,7 @@ age_filter2(age1);
 age_filter2(age2);
 
 // Exercise 2
-console.log("| 1.2 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 2 N★☆☆ | -------------------------------------------");
 // Use with comparison operators: Write an expression that uses the ternary operator to determine 
 // which of the two given numbers (num1 and num2) is larger. If num1 is larger, return 'num1 is larger'. 
 // Otherwise, return 'num2 is larger'.
@@ -104,7 +104,7 @@ function compare_numbers(numberA, numberB) {
 compare_numbers(num_a, num_b);
 
 // Exercise 3
-console.log("| 1.2 Ex 3 N★★☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 3 N★★☆ | -------------------------------------------");
 // Chained ternary operators: Write an expression that uses chained ternary operators to determine 
 // if a number is positive, negative, or zero.
 // Ternary operator with functions: Create a function findMax that accepts three parameters (a, b, c) 
@@ -130,7 +130,7 @@ determine_value(findMax(n_1, n_2, n_3));
 
 
 // Exercise 4
-console.log("| 1.2 Ex 4 N★★★ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 4 N★★★ | -------------------------------------------");
 // Ternary operator inside a loop: Write a function parOImpar that accepts an array of numbers 
 // and uses a loop to iterate through the array. Inside the loop, 
 // use the ternary operator to determine if each number is even or odd.
@@ -148,7 +148,7 @@ parOImpar(numbers);
 /**************************************************************************/
 
 // Exercise 1
-console.log("| 1.3 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 1 N★☆☆ | -------------------------------------------");
 // Basic Callback: Write a function called processar that accepts two parameters:
 // a number and a callback function. The processar function should invoke the callback function,
 // passing the number as a parameter.
@@ -166,7 +166,7 @@ processar(num_c, elevar_al_cuadrado);
 
 
 // Exercise 2
-console.log("| 1.3 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 2 N★☆☆ | -------------------------------------------");
 // Callbacks with Mathematical Operations: Write a function called calculadora that accepts three parameters:
 // two numbers and a callback function. The calculadora function should invoke the callback function with the
 // two numbers as parameters. Then, call calculadora with a function that performs the addition of the two numbers.
@@ -181,7 +181,7 @@ function sumar_numeros(num1, num2) {
 
 
 // Exercise 3
-console.log("| 1.3 Ex 3 N★★☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 3 N★★☆ | -------------------------------------------");
 // Using Callbacks in Asynchronous Functions: Write a function called esperarISaludar
 // that accepts two parameters: a name and a callback function. The function should wait for 2 seconds and
 // then invoke the callback function, passing the name as a parameter.
@@ -199,7 +199,7 @@ esperarISaludar("Miguel", mensaje_delayed);
 
 
 // Exercise 4
-console.log("| 1.3 Ex 4 N★★☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 4 N★★☆ | -------------------------------------------");
 // Callbacks with Arrays: Write a function called processarElements that accepts two parameters:
 // an array and a callback function. The processarElements function should invoke the callback
 // function for each element of the array.
@@ -218,7 +218,7 @@ processarElements(array2, parOImpar)
 
 
 // Exercise 5
-console.log("| 1.3 Ex 5 N★★★ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 5 N★★★ | -------------------------------------------");
 // Write a function processString that accepts two parameters: a string and a callback function.
 // The function processString should convert the string to uppercase and then invoke the callback
 // function with the transformed string.
@@ -247,43 +247,43 @@ processString(string, print_str);
 /********************************** 1.4 ***********************************/
 /**************************************************************************/
 
-console.log("| 1.4 Ex 1 N★☆☆ | -------------------------------------------");
-console.log("| 1.4 Ex 2 N★☆☆ | -------------------------------------------");
-console.log("| 1.4 Ex 3 N★★☆ | -------------------------------------------");
-console.log("| 1.4 Ex 4 N★★☆ | -------------------------------------------");
-console.log("| 1.4 Ex 5 N★★★ | -------------------------------------------");
-console.log("| 1.4 Ex 6 N★★★ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 3 N★★☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 4 N★★☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 5 N★★★ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 6 N★★★ | -------------------------------------------");
 
 /**************************************************************************/
 /********************************** 1.5 ***********************************/
 /**************************************************************************/
 
-console.log("| 1.5 Ex 1 N★☆☆ | -------------------------------------------");
-console.log("| 1.5 Ex 2 N★☆☆ | -------------------------------------------");
-console.log("| 1.5 Ex 3 N★☆☆ | -------------------------------------------");
-console.log("| 1.5 Ex 4 N★☆☆ | -------------------------------------------");
-console.log("| 1.5 Ex 5 N★★☆ | -------------------------------------------");
-console.log("| 1.5 Ex 6 N★★★ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 3 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 4 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 5 N★★☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 6 N★★★ | -------------------------------------------");
 
 /**************************************************************************/
 /********************************** 1.6 ***********************************/
 /**************************************************************************/
 
-console.log("| 1.6 Ex 1 N★☆☆ | -------------------------------------------");
-console.log("| 1.6 Ex 2 N★☆☆ | -------------------------------------------");
-console.log("| 1.6 Ex 3 N★☆☆ | -------------------------------------------");
-console.log("| 1.6 Ex 4 N★★☆ | -------------------------------------------");
-console.log("| 1.6 Ex 5 N★★☆ | -------------------------------------------");
-console.log("| 1.6 Ex 6 N★★★ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 3 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 4 N★★☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 5 N★★☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 6 N★★★ | -------------------------------------------");
 
 /**************************************************************************/
 /********************************** 1.7 ***********************************/
 /**************************************************************************/
 
-console.log("| 1.7 Ex 1 N★☆☆ | -------------------------------------------");
-console.log("| 1.7 Ex 2 N★☆☆ | -------------------------------------------");
-console.log("| 1.7 Ex 3 N★☆☆ | -------------------------------------------");
-console.log("| 1.7 Ex 4 N★☆☆ | -------------------------------------------");
-console.log("| 1.7 Ex 5 N★★☆ | -------------------------------------------");
-console.log("| 1.7 Ex 6 N★★★ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 1 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 2 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 3 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 4 N★☆☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 5 N★★☆ | -------------------------------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 6 N★★★ | -------------------------------------------");
 
