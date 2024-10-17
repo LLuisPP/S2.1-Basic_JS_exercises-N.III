@@ -137,7 +137,7 @@ console.log("| 1.2 Ex 4 N★★★ | -------------------------------------------
 let i;
 let numbers = [1,6,-3,4,8,0,4,7,5];
 function parOImpar (array) {
-    for (i =0; i < array.length; i++) {
+    for (i = 0; i < array.length; i++) {
         console.log(`Number ${array[i]} is ${array[i] % 2 != 0 ? "odd" : "even"} `)
     }
 }
@@ -179,7 +179,7 @@ function sumar_numeros(num1, num2) {
 }
  calculadora(3, 4, sumar_numeros);
 
- 
+
 // Exercise 3
 console.log("| 1.3 Ex 3 N★★☆ | -------------------------------------------");
 // Using Callbacks in Asynchronous Functions: Write a function called esperarISaludar
@@ -198,16 +198,50 @@ function mensaje_delayed(name) {
 esperarISaludar("Miguel", mensaje_delayed);
 
 
-
 // Exercise 4
 console.log("| 1.3 Ex 4 N★★☆ | -------------------------------------------");
 // Callbacks with Arrays: Write a function called processarElements that accepts two parameters:
 // an array and a callback function. The processarElements function should invoke the callback
 // function for each element of the array.
+let array2 = [1,23,5,8,9,54,27];
+function processarElements(array, callback) {
+    callback(array2);
+}
+
+function parOImpar (array) {
+    for (i =0; i < array.length; i++) {
+        console.log(`Number ${array[i]} is ${array[i] % 2 != 0 ? "odd" : "even"} `)
+    }
+}
+
+processarElements(array2, parOImpar)
 
 
-
+// Exercise 5
 console.log("| 1.3 Ex 5 N★★★ | -------------------------------------------");
+// Write a function processString that accepts two parameters: a string and a callback function.
+// The function processString should convert the string to uppercase and then invoke the callback
+// function with the transformed string.
+let string = "Esto esta en minUsCuLas Y paSa A MaYuScULas";
+let result = "";
+function processString(str, callback) {
+    for (i = 0; i < str.length; i++) { 
+        if (str[i] >= 'a' && str[i] <= 'z') {
+            result += str[i].toUpperCase();
+        }
+        else {
+            result += str[i];
+        }
+    }
+    callback(result);
+}
+
+function print_str(str) {
+    console.log(`string: ${str}`);
+}
+
+processString(string, print_str);
+
 
 /**************************************************************************/
 /********************************** 1.4 ***********************************/
