@@ -67,7 +67,7 @@ console.log("Scroll down and wait 3000ms, result it will appear at the bottom");
 // Arrow function with 'setTimeout': Create an arrow function that prints a message to the console 
 // after waiting for 3 seconds.
 
-setTimeout(() => {console.log('Delayed output | 1.1 Ex 5 N★★★ | with 3000ms of delay')}, 3000);
+setTimeout(() => {console.log('Delayed output | 1.1.5 | with 3000ms of delay')}, 3000);
 
 /**************************************************************************/
 /********************************** 1.2 ***********************************/
@@ -153,6 +153,7 @@ console.log("| 1.3 Ex 1 N★☆☆ | -------------------------------------------
 // a number and a callback function. The processar function should invoke the callback function,
 // passing the number as a parameter.
 let num_c = 3;
+
 function processar(num, callback) {
     callback(num);
 }
@@ -163,9 +164,49 @@ function elevar_al_cuadrado(num) {
 
 processar(num_c, elevar_al_cuadrado);
 
+
+// Exercise 2
 console.log("| 1.3 Ex 2 N★☆☆ | -------------------------------------------");
+// Callbacks with Mathematical Operations: Write a function called calculadora that accepts three parameters:
+// two numbers and a callback function. The calculadora function should invoke the callback function with the
+// two numbers as parameters. Then, call calculadora with a function that performs the addition of the two numbers.
+function calculadora (num1, num2, callback) {
+    callback(num1, num2);
+}
+
+function sumar_numeros(num1, num2) {
+    console.log(`Sumar ${num1} + ${num2} = ${num1 * num2}`);
+}
+ calculadora(3, 4, sumar_numeros);
+
+ 
+// Exercise 3
 console.log("| 1.3 Ex 3 N★★☆ | -------------------------------------------");
+// Using Callbacks in Asynchronous Functions: Write a function called esperarISaludar
+// that accepts two parameters: a name and a callback function. The function should wait for 2 seconds and
+// then invoke the callback function, passing the name as a parameter.
+function esperarISaludar (name, callback) {
+    callback(name);
+}
+
+function mensaje_delayed(name) {
+    setTimeout(() => {
+        console.log(`Delayed Hola ${name}!! | 1.3.2 | with 2000ms of delay`)
+    },2000);
+}
+
+esperarISaludar("Miguel", mensaje_delayed);
+
+
+
+// Exercise 4
 console.log("| 1.3 Ex 4 N★★☆ | -------------------------------------------");
+// Callbacks with Arrays: Write a function called processarElements that accepts two parameters:
+// an array and a callback function. The processarElements function should invoke the callback
+// function for each element of the array.
+
+
+
 console.log("| 1.3 Ex 5 N★★★ | -------------------------------------------");
 
 /**************************************************************************/
