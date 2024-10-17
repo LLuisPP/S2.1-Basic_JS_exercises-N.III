@@ -48,10 +48,9 @@ name1.greet();
 
 // Exercise 4
 console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 4 N★★☆ | -------------------------------------------");
-// Exercise 4
 // Arrow function inside a loop: Create a function named printNumbers that accepts an array of numbers 
 // and uses a for loop to print each number to the console using an arrow function.
-let num_array = [1,3,34,49,45,7];
+let num_array = [1,3,34,-49,45,7];
 
 function printNumbers(numbers) {
     for (let i = 0; i < numbers.length; i++) {
@@ -185,13 +184,14 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 3 N★★☆ | ------
 // Using Callbacks in Asynchronous Functions: Write a function called esperarISaludar
 // that accepts two parameters: a name and a callback function. The function should wait for 2 seconds and
 // then invoke the callback function, passing the name as a parameter.
+console.log("Scroll down and wait 2000ms, result it will appear at the bottom");
 function esperarISaludar (name, callback) {
     callback(name);
 }
 
 function mensaje_delayed(name) {
     setTimeout(() => {
-        console.log(`Delayed Hola ${name}!! | 1.3.2 | with 2000ms of delay`)
+        console.log(`Delayed Hola ${name}!! | 1.3.3 | with 2000ms of delay`)
     },2000);
 }
 
@@ -247,11 +247,42 @@ processString(string, print_str);
 /********************************** 1.4 ***********************************/
 /**************************************************************************/
 
+// Exercise 1
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 1 N★☆☆ | -------------------------------------------");
+// Spread Operator in Arrays: Create two arrays, array1 and array2. Use the spread operator
+// to create a third array that contains all the elements from array1 and array2.
+let array_1 = [1,2,48,5,17,8,-23,4,74,];
+let array_2 =  [66,23,-45,88,35,2,11];
+
+let array_combined = [...array_1, ...array_2];
+
+console.log(`El array 1 : ${array_1} combinado con ${array_2} resulta en ${array_combined}`);
+
+
+// Exercise 2
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 2 N★☆☆ | -------------------------------------------");
+// Rest Operator in Functions: Create a function called sum that uses the rest operator to accept an indefinite
+// number of arguments and return their sum.
+function sum(...nums) {
+    console.log(`rest op shows: ${nums}`);
+}
+
+sum(1,3,4,6,7,8,3);
+sum(-34,8,56);
+
+// Exercise 3
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 3 N★★☆ | -------------------------------------------");
+
+
+// Exercise 4
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 4 N★★☆ | -------------------------------------------");
+
+
+// Exercise 5
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 5 N★★★ | -------------------------------------------");
+
+
+// Exercise 6
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 6 N★★★ | -------------------------------------------");
 
 /**************************************************************************/
