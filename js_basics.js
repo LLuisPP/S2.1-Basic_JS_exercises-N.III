@@ -58,11 +58,12 @@ printNumbers(num_array);
 
 // Exercise 5
 console.log("| 1.1 Ex 5 N★★★ | -------------------------------------------");
+console.log("Scroll down and wait 3000ms, result it will appear at the bottom");
 // Exercise 5
 // Arrow function with 'setTimeout': Create an arrow function that prints a message to the console 
 // after waiting for 3 seconds.
 
-setTimeout(() => {console.log('This message is | 1.1 Ex 5 N★★★ | with 3000ms of delay')}, 3000);
+setTimeout(() => {console.log('Delayed output | 1.1 Ex 5 N★★★ | with 3000ms of delay')}, 3000);
 
 /**************************************************************************/
 /**************************************************************************/
@@ -128,6 +129,14 @@ console.log("| 1.2 Ex 4 N★★★ | -------------------------------------------
 // Ternary operator inside a loop: Write a function parOImpar that accepts an array of numbers 
 // and uses a loop to iterate through the array. Inside the loop, 
 // use the ternary operator to determine if each number is even or odd.
+let i;
+let numbers = [1,6,-3,4,8,0,4,7,5];
+function parOImpar (array) {
+    for (i =0; i < array.length; i++) {
+        console.log(`Number ${array[i]} is ${array[i] % 2 != 0 ? "odd" : "even"} `)
+    }
+}
+parOImpar(numbers);
 
 console.log("| 1.3 Ex 1 N★☆☆ | -------------------------------------------");
 console.log("| 1.3 Ex 2 N★☆☆ | -------------------------------------------");
