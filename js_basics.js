@@ -152,8 +152,16 @@ console.log("| 1.3 Ex 1 N★☆☆ | -------------------------------------------
 // Basic Callback: Write a function called processar that accepts two parameters:
 // a number and a callback function. The processar function should invoke the callback function,
 // passing the number as a parameter.
+let num_c = 3;
+function processar(num, callback) {
+    callback(num);
+}
 
+function elevar_al_cuadrado(num) {
+    console.log(`${num} al cuadrado es: ${num * num}`)
+}
 
+processar(num_c, elevar_al_cuadrado);
 
 console.log("| 1.3 Ex 2 N★☆☆ | -------------------------------------------");
 console.log("| 1.3 Ex 3 N★★☆ | -------------------------------------------");
