@@ -10,7 +10,7 @@ In this exercise, you will have to solve basic exercises using Javascript.
         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" width="35" height="35"/></a><br>Html
       </td>
       <td>
-        <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" width="35" height="35"/></a><br>Css
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" width="35" height="35"/></a><br>CSS
       </td>
       <td>
         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Javascript" width="35" height="35"/></a><br>JS
