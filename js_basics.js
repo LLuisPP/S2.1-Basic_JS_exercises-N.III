@@ -2,9 +2,9 @@
 /********************************** 1.1 ***********************************/
 /**************************************************************************/
 
-// Exercise 1
+// Exercise 1 - Function conversion:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 1 N★☆☆ | -------------------------------------------");
-// Function conversion: You have a function 'add' that accepts two parameters and returns their sum.
+// You have a function 'add' that accepts two parameters and returns their sum.
 // Convert it into an arrow function. For example: function add(a, b) {return a + b;}.
 
 let a = 6;
@@ -15,9 +15,9 @@ arrow_function = (a, b) => a + b;
 console.log(`Variable values are a = ${a} and b = ${b}`);
 console.log("Result of ARROW FUNCTION (a, b) => (a + b) = ", arrow_function(a, b));
 
-// Exercise 2
+// Exercise 2 - Arrow function without parameters:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 2 N★☆☆ | -------------------------------------------");
-// Arrow function without parameters: Create an arrow function called randomNumber that
+// Create an arrow function called randomNumber that
 // doesn't need parameters and returns a random number between 0 and 100.
 
 let random_number;
@@ -28,12 +28,10 @@ function randomNumber() {
 random_number = randomNumber();
 console.log("Result of RANDOM_NUMBER = ", random_number);
 
-// Exercise 3
+// Exercise 3 - Use of 'this' in arrow functions:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 3 N★☆☆ | -------------------------------------------");
-// Use of 'this' in arrow functions: Create a class 'Person' that has a property 
-// 'name' and a 'greet' function that uses an arrow function. 
-// The function should print a greeting that includes the person's name. 
-// For example: console.log(Hello, ${this.name});.
+// Create a class 'Person' that has a property 'name' and a 'greet' function that uses an arrow function. 
+// The function should print a greeting that includes the person's name. For example: console.log(Hello, ${this.name});.
 
 class person {
     constructor (name) {
@@ -46,9 +44,9 @@ class person {
 let name1 = new person('Juan');
 name1.greet();
 
-// Exercise 4
+// Exercise 4 - Arrow function inside a loop:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 4 N★★☆ | -------------------------------------------");
-// Arrow function inside a loop: Create a function named printNumbers that accepts an array of numbers 
+// Create a function named printNumbers that accepts an array of numbers 
 // and uses a for loop to print each number to the console using an arrow function.
 let num_array = [1,3,34,-49,45,7];
 
@@ -59,11 +57,10 @@ function printNumbers(numbers) {
 };
 printNumbers(num_array);
 
-// Exercise 5
+// Exercise 5 - Arrow function with 'setTimeout':
 console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 5 N★★★ | -------------------------------------------");
 console.log("Scroll down and wait 3000ms, result it will appear at the bottom");
-// Exercise 5
-// Arrow function with 'setTimeout': Create an arrow function that prints a message to the console 
+// Create an arrow function that prints a message to the console 
 // after waiting for 3 seconds.
 
 setTimeout(() => {console.log('Delayed output | 1.1.5 | with 3000ms of delay')}, 3000);
@@ -72,9 +69,9 @@ setTimeout(() => {console.log('Delayed output | 1.1.5 | with 3000ms of delay')},
 /********************************** 1.2 ***********************************/
 /**************************************************************************/
 
-// Exercise 1
+// Exercise 1 - Basic ternary operator:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 1 N★☆☆ | -------------------------------------------");
-// Basic ternary operator: Write a function canDrive that accepts age as a parameter 
+// Write a function canDrive that accepts age as a parameter 
 // and uses the ternary operator to determine if the user can drive. If the age is 18 or older, 
 // it should return 'You can drive'. Otherwise, it should return 'You cannot drive'.
 let age1 = 36;
@@ -88,9 +85,9 @@ function age_filter2(age) {
 age_filter2(age1);
 age_filter2(age2);
 
-// Exercise 2
+// Exercise 2 - Use with comparison operators:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 2 N★☆☆ | -------------------------------------------");
-// Use with comparison operators: Write an expression that uses the ternary operator to determine 
+// Write an expression that uses the ternary operator to determine 
 // which of the two given numbers (num1 and num2) is larger. If num1 is larger, return 'num1 is larger'. 
 // Otherwise, return 'num2 is larger'.
 let num_a = 73;
@@ -102,9 +99,9 @@ function compare_numbers(numberA, numberB) {
 };
 compare_numbers(num_a, num_b);
 
-// Exercise 3
+// Exercise 3 - Chained ternary operators:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 3 N★★☆ | -------------------------------------------");
-// Chained ternary operators: Write an expression that uses chained ternary operators to determine 
+// Write an expression that uses chained ternary operators to determine 
 // if a number is positive, negative, or zero.
 // Ternary operator with functions: Create a function findMax that accepts three parameters (a, b, c) 
 // and uses the ternary operator to determine the maximum value.
@@ -128,9 +125,9 @@ function findMax(n_1, n_2, n_3) {
 determine_value(findMax(n_1, n_2, n_3));
 
 
-// Exercise 4
+// Exercise 4 - Ternary operator inside a loop:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 4 N★★★ | -------------------------------------------");
-// Ternary operator inside a loop: Write a function parOImpar that accepts an array of numbers 
+// Write a function parOImpar that accepts an array of numbers 
 // and uses a loop to iterate through the array. Inside the loop, 
 // use the ternary operator to determine if each number is even or odd.
 let i;
@@ -146,9 +143,9 @@ parOImpar(numbers);
 /********************************** 1.3 ***********************************/
 /**************************************************************************/
 
-// Exercise 1
+// Exercise 1 - Basic Callback:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 1 N★☆☆ | -------------------------------------------");
-// Basic Callback: Write a function called processar that accepts two parameters:
+// Write a function called processar that accepts two parameters:
 // a number and a callback function. The processar function should invoke the callback function,
 // passing the number as a parameter.
 let num_c = 3;
@@ -164,9 +161,9 @@ function elevar_al_cuadrado(num) {
 processar(num_c, elevar_al_cuadrado);
 
 
-// Exercise 2
+// Exercise 2 - Callbacks with Mathematical Operations:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 2 N★☆☆ | -------------------------------------------");
-// Callbacks with Mathematical Operations: Write a function called calculadora that accepts three parameters:
+// Write a function called calculadora that accepts three parameters:
 // two numbers and a callback function. The calculadora function should invoke the callback function with the
 // two numbers as parameters. Then, call calculadora with a function that performs the addition of the two numbers.
 function calculadora (num1, num2, callback) {
@@ -179,9 +176,9 @@ function sumar_numeros(num1, num2) {
  calculadora(3, 4, sumar_numeros);
 
 
-// Exercise 3
+// Exercise 3 - Using Callbacks in Asynchronous Functions:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 3 N★★☆ | -------------------------------------------");
-// Using Callbacks in Asynchronous Functions: Write a function called esperarISaludar
+// Write a function called esperarISaludar
 // that accepts two parameters: a name and a callback function. The function should wait for 2 seconds and
 // then invoke the callback function, passing the name as a parameter.
 console.log("Scroll down and wait 2000ms, result it will appear at the bottom");
@@ -198,9 +195,9 @@ function mensaje_delayed(name) {
 esperarISaludar("Miguel", mensaje_delayed);
 
 
-// Exercise 4
+// Exercise 4 - Callbacks with Arrays:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 4 N★★☆ | -------------------------------------------");
-// Callbacks with Arrays: Write a function called processarElements that accepts two parameters:
+// Write a function called processarElements that accepts two parameters:
 // an array and a callback function. The processarElements function should invoke the callback
 // function for each element of the array.
 let array2 = [1,23,5,8,9,54,27];
@@ -217,9 +214,9 @@ function parOImpar (array) {
 processarElements(array2, parOImpar)
 
 
-// Exercise 5
+// Exercise 5 - Write a function processString that accepts two parameters:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 5 N★★★ | -------------------------------------------");
-// Write a function processString that accepts two parameters: a string and a callback function.
+// a string and a callback function.
 // The function processString should convert the string to uppercase and then invoke the callback
 // function with the transformed string.
 let string = "Esto esta en minUsCuLas Y paSa A MaYuScULas";
@@ -247,11 +244,11 @@ processString(string, print_str);
 /********************************** 1.4 ***********************************/
 /**************************************************************************/
 
-// Exercise 1
+// Exercise 1 - Spread Operator in Arrays:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 1 N★☆☆ | -------------------------------------------");
-// Spread Operator in Arrays: Create two arrays, array1 and array2. Use the spread operator
+// Create two arrays, array1 and array2. Use the spread operator
 // to create a third array that contains all the elements from array1 and array2.
-let array_1 = [1,2,48,5,17,8,-23,4,74,];
+let array_1 = [1,2,48,5,17,8,-23,4,74];
 let array_2 =  [66,23,-45,88,35,2,11];
 
 let array_combined = [...array_1, ...array_2];
@@ -259,9 +256,9 @@ let array_combined = [...array_1, ...array_2];
 console.log(`El array 1 : ${array_1} combinado con ${array_2} resulta en ${array_combined}`);
 
 
-// Exercise 2
+// Exercise 2 - Rest Operator in Functions: 
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 2 N★☆☆ | -------------------------------------------");
-// Rest Operator in Functions: Create a function called sum that uses the rest operator to accept an indefinite
+// Create a function called sum that uses the rest operator to accept an indefinite
 // number of arguments and return their sum.
 function sum(...nums) {
     console.log(`rest op shows: ${nums}`);
@@ -270,16 +267,35 @@ function sum(...nums) {
 sum(1,3,4,6,7,8,3);
 sum(-34,8,56);
 
-// Exercise 3
+
+// Exercise 3 - Copying Objects with Spread
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 3 N★★☆ | -------------------------------------------");
+// Create an object 'object1'. Then create a second object, 'object2', that is a copy of 'object1' using the spread
+// operator. Change a property in 'object2' and check that 'object1' has not changed.
+let object1 = {name: 'luis', height: 1.66}
+let object2 = {...object1, height: 2.70}
+
+console.log(object1);
+console.log(object2);
 
 
-// Exercise 4
+// Exercise 4 - Rest in Destructuring:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 4 N★★☆ | -------------------------------------------");
+// Create an array with several elements. Use destructuring and the rest operator to assign the first two elements
+// to variables, and then assign the rest of the elements to a third variable.
+let array_3 = [1,-2,48,-5,"verde",8,-23,4];
+let [first, second, ...rest] = array_3;
+
+console.log(`First: ${first}`);
+console.log(`Second: ${second}`);
+console.log(`Third: ${rest}`);
 
 
-// Exercise 5
+// Exercise 5 - Spread in Functions
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 5 N★★★ | -------------------------------------------");
+// Create a function that accepts three arguments. Then, create an array with three elements and call the
+// function using the spread operator with this array.
+
 
 
 // Exercise 6
