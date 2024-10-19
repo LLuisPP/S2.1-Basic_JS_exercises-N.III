@@ -326,20 +326,27 @@ console.log("\x1b[1m\x1b[31m****************************************************
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 1 N★☆☆ | --------------------");
 // You have an array of numbers [1, 2, 3, 4]. Create a new array that contains the square of each number.
 let given_array = [1, 2, 3, 4];
-let pot_array = given_array.map(num => num ** 2);
+let square_array = given_array.map(num => num ** 2);
 
-console.log(pot_array);
+console.log(square_array);
 
 
 // Exercise 2: Filter
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 2 N★☆☆ | --------------------");
 // You have an array of numbers [1, 2, 3, 4]. Create a new array that only contains even numbers.
+let num_arr = [1, 2, 3, 4];
+let even_nums = num_arr.filter(num => num % 2 === 0);
+let even_enum = num_arr.map(num => num % 2 === 0);
 
+console.log(even_enum);
+console.log(even_nums);
 
 
 // Exercise 3: Find
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 3 N★☆☆ | --------------------");
 // You have an array of numbers [1, 10, 8, 11]. Use the find function to find the first number greater than 10.
+
+
 
 
 // Exercise 4: Reduce
