@@ -299,23 +299,69 @@ console.log(`Third: ${rest}`);
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 5 N★★★ | --------------------");
 // Create a function that accepts three arguments. Then, create an array with three elements and call the
 // function using the spread operator with this array.
+let values = ["hi", "there", "mate!"];
+function    printArray(a, b, c) {
+    console.log(a, b, c);
+}
+
+printArray(...values);
 
 
-
-// Exercise 6
+// Exercise 6 - Merging Objects with Spread
 console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 6 N★★★ | --------------------");
+// Create two objects with different properties. Use the spread operator to merge these two objects into a new one.
+let obj1 = {name: "Luis", surname: "Prieto"};
+let obj2 = {age: 40, born: "León"};
+
+let obj12 = {...obj1, ...obj2};
+console.log(obj12);
+
 
 /**************************************************************************/
 /****                               1.5                                ****/
 /**************************************************************************/
 console.log("\x1b[1m\x1b[31m*************************************************************\n****                         1.5                         ****\n*************************************************************\n");
 
+// Exercise 1: Map
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 1 N★☆☆ | --------------------");
+// You have an array of numbers [1, 2, 3, 4]. Create a new array that contains the square of each number.
+let given_array = [1, 2, 3, 4];
+let pot_array = given_array.map(num => num ** 2);
+
+console.log(pot_array);
+
+
+// Exercise 2: Filter
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 2 N★☆☆ | --------------------");
+// You have an array of numbers [1, 2, 3, 4]. Create a new array that only contains even numbers.
+
+
+
+// Exercise 3: Find
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 3 N★☆☆ | --------------------");
+// You have an array of numbers [1, 10, 8, 11]. Use the find function to find the first number greater than 10.
+
+
+// Exercise 4: Reduce
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 4 N★☆☆ | --------------------");
+// You have an array of numbers [13, 7, 8, 21]. Use the reduce function to calculate the total sum of the numbers.
+
+
+// Exercise 5
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 5 N★★☆ | --------------------");
+// Given an array "[1, 3, 7, 10, 15, 17, 11, 5, 8, 12, 9]", create a function in a single line that does the following:
+// - Filters numbers greater than or equal to 10.
+// - Multiplies each filtered number by 2.
+// - Calculates the sum of the filtered and multiplied numbers.
+// - The function should return the result of the sum.
+
+
+
+// Exercise 6: Every / Some
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 6 N★★★ | --------------------");
+// Use every and some to determine if all or some of the elements in the array [11, 12, 13, 14] are greater than 10.
+
+
 
 /**************************************************************************/
 /****                               1.6                                ****/
