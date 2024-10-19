@@ -354,6 +354,10 @@ console.log(num_ten_greater);
 // Exercise 4: Reduce
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 4 N★☆☆ | --------------------");
 // You have an array of numbers [13, 7, 8, 21]. Use the reduce function to calculate the total sum of the numbers.
+let nu_array = [13, 7, 8, 21];
+let sum_num = nu_array.reduce((sum, num) => sum + num, 0);
+
+console.log(sum_num);
 
 
 // Exercise 5
@@ -363,6 +367,10 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 5 N★★☆ | ------
 // - Multiplies each filtered number by 2.
 // - Calculates the sum of the filtered and multiplied numbers.
 // - The function should return the result of the sum.
+let arr_numbers = [1, 3, 7, 10, 15, 17, 11, 5, 8, 12, 9];
+let resultado = arr_numbers.filter(num => num >= 10).map(num => num * 2).reduce((sum, num) => sum + num, 0);
+
+console.log(resultado);
 
 
 
