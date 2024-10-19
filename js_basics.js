@@ -322,7 +322,7 @@ console.log(obj12);
 /**************************************************************************/
 console.log("\x1b[1m\x1b[31m*************************************************************\n****                         1.5                         ****\n*************************************************************\n");
 
-// Exercise 1: Map
+// Exercise 1 - Map
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 1 N★☆☆ | --------------------");
 // You have an array of numbers [1, 2, 3, 4]. Create a new array that contains the square of each number.
 let given_array = [1, 2, 3, 4];
@@ -331,7 +331,7 @@ let square_array = given_array.map(num => num ** 2);
 console.log(square_array);
 
 
-// Exercise 2: Filter
+// Exercise 2 - Filter
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 2 N★☆☆ | --------------------");
 // You have an array of numbers [1, 2, 3, 4]. Create a new array that only contains even numbers.
 let num_arr = [1, 2, 3, 4];
@@ -342,7 +342,7 @@ console.log(even_enum);
 console.log(even_nums);
 
 
-// Exercise 3: Find
+// Exercise 3 - Find
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 3 N★☆☆ | --------------------");
 // You have an array of numbers [1, 10, 8, 11]. Use the find function to find the first number greater than 10.
 let arr_num = [1, 10, 8, 11];
@@ -351,7 +351,7 @@ let num_ten_greater = arr_num.find(num => num > 10);
 console.log(num_ten_greater);
 
 
-// Exercise 4: Reduce
+// Exercise 4 - Reduce
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 4 N★☆☆ | --------------------");
 // You have an array of numbers [13, 7, 8, 21]. Use the reduce function to calculate the total sum of the numbers.
 let nu_array = [13, 7, 8, 21];
@@ -373,7 +373,7 @@ let resultado = arr_numbers.filter(num => num >= 10).map(num => num * 2).reduce(
 console.log(resultado);
 
 
-// Exercise 6: Every / Some
+// Exercise 6 - Every / Some
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 6 N★★★ | --------------------");
 // Use every and some to determine if all or some of the elements in the array [11, 12, 13, 14] are greater than 10.
 let array_nums = [11, 12, 13, 14];
@@ -389,22 +389,59 @@ console.log(some_check);
 /**************************************************************************/
 console.log("\x1b[1m\x1b[31m*************************************************************\n****                         1.6                         ****\n*************************************************************\n");
 
+
+// Exercise 1 - forEach
 console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 1 N★☆☆ | --------------------");
+// You have an array of names. Use forEach to print each name to the console:
+
+// Exercise 2 - for-of
 console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 2 N★☆☆ | --------------------");
+// You have an array of names. Use a for-of loop to print each name to the console:
+
+// Exercise 3 - filter
 console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 3 N★☆☆ | --------------------");
+// You have an array of numbers. Use filter to create a new array that only contains even numbers.
+
+// Exercise 4 - for-in
 console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 4 N★★☆ | --------------------");
+// You have an object with key-value pairs: let obj = { name: 'Ona', age: 25, city: 'Barcelona' };
+// Use a for-in loop to print each key and its corresponding value.
+
+// Exercise 5 - for-of with break
 console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 5 N★★☆ | --------------------");
+// You have an array of numbers. Use a for-of loop to print the numbers until you find the number 5, then stop the loop:
+
+// Exercise 6 - for-of with index
 console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 6 N★★★ | --------------------");
+// Use a for-of loop to print each element in the array and its index:
+
 
 /**************************************************************************/
 /****                               1.7                                ****/
 /**************************************************************************/
 console.log("\x1b[1m\x1b[31m*************************************************************\n****                         1.7                         ****\n*************************************************************\n");
 
+// Exercise 1 - Creating a Promise
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 1 N★☆☆ | --------------------");
+// Create a promise that resolves after 2 seconds and returns the string 'Hello, world'.
+
+// Exercise 2 - Using a Promise
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 2 N★☆☆ | --------------------");
+// Use the promise created in the previous exercise. Create a .then that prints the result to the console.
+
+// Exercise 3 - Promise with reject
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 3 N★☆☆ | --------------------");
+// Create a promise that resolves after 2 seconds with 'Success', but rejects immediately with 'Error'.
+
+// Exercise 4 - Async/Await
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 4 N★☆☆ | --------------------");
+// Create a function that returns a promise that resolves after 2 seconds with the value 'Hello, Async'.
+// Call this function using async/await and log the result.js
+
+// Exercise 5 - Error Handling with Async/Await
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 5 N★★☆ | --------------------");
+// Modify the previous example to reject the promise immediately with 'Async Error' and handle the error using try/catch.
+
+// Exercise 6 - Promise.all: 
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 6 N★★★ | --------------------");
 
