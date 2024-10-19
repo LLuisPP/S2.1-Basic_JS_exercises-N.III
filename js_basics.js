@@ -373,11 +373,15 @@ let resultado = arr_numbers.filter(num => num >= 10).map(num => num * 2).reduce(
 console.log(resultado);
 
 
-
 // Exercise 6: Every / Some
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 6 N★★★ | --------------------");
 // Use every and some to determine if all or some of the elements in the array [11, 12, 13, 14] are greater than 10.
+let array_nums = [11, 12, 13, 14];
+let every_check = array_nums.every(num => num > 10);
+let some_check = array_nums.some(num => num > 10);
 
+console.log(every_check);
+console.log(some_check);
 
 
 /**************************************************************************/
