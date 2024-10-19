@@ -345,8 +345,10 @@ console.log(even_nums);
 // Exercise 3: Find
 console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 3 N★☆☆ | --------------------");
 // You have an array of numbers [1, 10, 8, 11]. Use the find function to find the first number greater than 10.
+let arr_num = [1, 10, 8, 11];
+let num_ten_greater = arr_num.find(num => num > 10);
 
-
+console.log(num_ten_greater);
 
 
 // Exercise 4: Reduce
