@@ -2,6 +2,7 @@ html {
     background-color: #333333;
     max-width: 1200px;
     overflow-x: hidden;
+    margin: 0 auto;
 }
 
 .container {

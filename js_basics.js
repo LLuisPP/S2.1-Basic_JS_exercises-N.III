@@ -572,13 +572,8 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 4 N★☆☆ | ------
 
     async function print_ex1()
     {
-        try {
             let result = await promise;
             console.log(result);
-        }
-        catch (error) {
-            console.log('Error');
-        }
     }
 
     print_ex1();
