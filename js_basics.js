@@ -609,6 +609,8 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 6 N★★★ | ------
 // Create two promises that resolve after 2 and 3 seconds, respectively. Use Promise.all
 // to wait for both promises to resolve, and print the results to the console.
 
+    console.log(`Delayed output | 1.7.6 | 3000ms of delay`)
+
     let promise1 = new Promise((resolve) => {
         setTimeout(() => resolve('Promise 1 resolved after 2 secs'), 2000);
     })
@@ -624,3 +626,5 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 6 N★★★ | ------
         .catch((error) => {
             console.log(error);
         });
+
+console.log("\x1b[1m\x1b[31m*************************************************************\n****                  DELAYED OUTPUTS                    ****\n*************************************************************\n");
