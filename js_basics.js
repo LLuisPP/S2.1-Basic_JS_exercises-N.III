@@ -565,17 +565,62 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 3 N★☆☆ | ------
 
 // Exercise 4 - Async/Await
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 4 N★☆☆ | --------------------");
-// Create a function that returns a promise that resolves after 2 seconds with the value 'Hello, Async'.
-// Call this function using async/await and log the result.js
+// Write an asynchronous function that uses the await function to wait for the result of
+// the promise created in exercise 1, and then prints that result to the console.
 
+    console.log(`Delayed output | 1.7.4 | 2000ms of delay`)
 
-    
+    async function print_ex1()
+    {
+        try {
+            let result = await promise;
+            console.log(result);
+        }
+        catch (error) {
+            console.log('Error');
+        }
+    }
+
+    print_ex1();
 
 
 // Exercise 5 - Error Handling with Async/Await
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 5 N★★☆ | --------------------");
 // Modify the previous example to reject the promise immediately with 'Async Error' and handle the error using try/catch.
 
+    console.log(`Delayed output | 1.7.5 | 2000ms of delay`)
+
+    async function print_ex1()
+    {
+        try {
+            let result = await promise;
+            console.log(result);
+        }
+        catch (error) {
+            console.log('Error');
+        }
+    }
+
+    print_ex1();
+
+
 // Exercise 6 - Promise.all: 
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 6 N★★★ | --------------------");
+// Create two promises that resolve after 2 and 3 seconds, respectively. Use Promise.all
+// to wait for both promises to resolve, and print the results to the console.
 
+    let promise1 = new Promise((resolve) => {
+        setTimeout(() => resolve('Promise 1 resolved after 2 secs'), 2000);
+    })
+
+    let promise2 = new Promise((resolve) => {
+        setTimeout(() => resolve('Promise 2 resolved after 3 secs'), 3000);
+    })
+
+    Promise.all([promise1, promise2])
+        .then((result) => {
+            console.log(result);
+        })
+        .catch((error) => {
+            console.log(error);
+        });
