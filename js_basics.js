@@ -523,18 +523,33 @@ console.log("\x1b[1m\x1b[31m****************************************************
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 1 N★☆☆ | --------------------");
 // Create a promise that resolves after 2 seconds and returns the string 'Hello, world'.
 
+    let promise = new Promise(
+        (result) => {
+            setTimeout(() => result('Hola, món'), 2000);
+        }
+    )
+
+
 // Exercise 2 - Using a Promise
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 2 N★☆☆ | --------------------");
 // Use the promise created in the previous exercise. Create a .then that prints the result to the console.
+
+    promise.then(result => console.log(result));
+
 
 // Exercise 3 - Promise with reject
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 3 N★☆☆ | --------------------");
 // Create a promise that resolves after 2 seconds with 'Success', but rejects immediately with 'Error'.
 
+
 // Exercise 4 - Async/Await
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 4 N★☆☆ | --------------------");
 // Create a function that returns a promise that resolves after 2 seconds with the value 'Hello, Async'.
 // Call this function using async/await and log the result.js
+
+
+    
+
 
 // Exercise 5 - Error Handling with Async/Await
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 5 N★★☆ | --------------------");
