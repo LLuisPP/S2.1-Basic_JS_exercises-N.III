@@ -522,6 +522,7 @@ console.log("\x1b[1m\x1b[31m****************************************************
 // Exercise 1 - Creating a Promise
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 1 N★☆☆ | --------------------");
 // Create a promise that resolves after 2 seconds and returns the string 'Hello, world'.
+    console.log(`Without output | 1.7.1 | > | 1.7.2 |`)
 
     let promise = new Promise(
         (result) => {
@@ -533,13 +534,33 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 1 N★☆☆ | ------
 // Exercise 2 - Using a Promise
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 2 N★☆☆ | --------------------");
 // Use the promise created in the previous exercise. Create a .then that prints the result to the console.
+    console.log(`Delayed output | 1.7.2 | 2000ms of delay`)
 
     promise.then(result => console.log(result));
 
 
 // Exercise 3 - Promise with reject
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 3 N★☆☆ | --------------------");
-// Create a promise that resolves after 2 seconds with 'Success', but rejects immediately with 'Error'.
+// Create a promise that resolves after 2 seconds if the input is equal to 'Hola',
+// and rejects if the input is anything else.
+    console.log(`Delayed output | 1.7.3 | 2000ms of delay`)
+
+    function rej_prom(input)
+    {
+        return new Promise
+        (
+            (resolve, reject) => {
+                if (input === 'Hola')
+                    setTimeout(() => resolve('Input is "Hola"'), 2000);
+                else
+                    reject('Input it is NOT "Hola"');
+            }
+        )
+    }
+
+    rej_prom('Hola')
+        .then(result => console.log(result))
+        .catch(reject => console.log(reject));
 
 
 // Exercise 4 - Async/Await
