@@ -62,27 +62,18 @@ N/A
 <h2>Results vs expected results</h2>
 
 > [!Tip]
-> Key concepts: `arrow=>function`, `javascript syntax`, `html>scripts`
+> Key concepts: `arrow => function`, `Math`, `.random`, `this.`, `.length`, `ternaries ? T : F`, `for`, `setTimeout()`, `callbacks`, `spread [...var]`, `.map`, `.find`, `.reduce`, `.filter`, `.every`, `.some`, `forEach`, `for ( of )`, `for ( in )`,  `for ( of ) + break`, `for (index of )`, `promise`, `promise.then.catch`, `(resolve, reject)`, `async await`
 
 <div align="center">
 <table>
   <tr>
-    <td align="center">
-      Expected result - ★★★
-    </td>  
     <td align="center">
       Result - Level ★★★
     </td>
   </tr>
   <tr>
     <td align="center">
-      <br><a href="#"><img src="" alt="landinpage" width="200" /></a><br>Exercise 1 layout<br>
-      <a href="#"><img src="" alt="features" width="200" /></a><br>Exercise 2 features<br>
-      <a href="#"><img src="" alt="downloads" width="200" /></a><br>Exercise 3 downloads<br>
-      <a href="#"><img src="" alt="downloads" width="200" /></a><br>Exercise 3 downloads<br><br>
-    </td>  
-    <td align="center">
-      <a href="#"><img src="" alt="Result" width="600" /></a>
+      <a href="#"><img src="https://github.com/user-attachments/assets/8367c7d2-f8cd-4254-b919-d2f5616f0de0" alt="Result" width="600" /></a>
     </td>
   </tr>
 </table>
