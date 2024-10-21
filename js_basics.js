@@ -4,7 +4,7 @@
 console.log("\x1b[1m\x1b[31m*************************************************************\n****                         1.1                         ****\n*************************************************************\n");
 
 // Exercise 1 - Function conversion:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 1 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 1 N ★☆☆ | --------------------");
 // You have a function 'add' that accepts two parameters and returns their sum.
 // Convert it into an arrow function. For example: function add(a, b) {return a + b;}.
 
@@ -18,7 +18,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 1 N★☆☆ | ------
 
 
 // Exercise 2 - Arrow function without parameters:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 2 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 2 N ★☆☆ | --------------------");
 // Create an arrow function called randomNumber that
 // doesn't need parameters and returns a random number between 0 and 100.
 
@@ -35,7 +35,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 2 N★☆☆ | ------
 
 
 // Exercise 3 - Use of 'this' in arrow functions:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 3 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 3 N ★☆☆ | --------------------");
 // Create a class 'Person' that has a property 'name' and a 'greet' function that uses an arrow function. 
 // The function should print a greeting that includes the person's name. For example: console.log(Hello, ${this.name});.
 
@@ -53,7 +53,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 3 N★☆☆ | ------
 
 
 // Exercise 4 - Arrow function inside a loop:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 4 N★★☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 4 N ★★☆ | --------------------");
 // Create a function named printNumbers that accepts an array of numbers 
 // and uses a for loop to print each number to the console using an arrow function.
 
@@ -70,7 +70,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 4 N★★☆ | ------
 
 
 // Exercise 5 - Arrow function with 'setTimeout':
-console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 5 N★★★ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 5 N ★★★ | --------------------");
 console.log("Scroll down and wait 3000ms, result it will appear at the bottom");
 // Create an arrow function that prints a message to the console 
 // after waiting for 3 seconds.
@@ -84,7 +84,7 @@ console.log("Scroll down and wait 3000ms, result it will appear at the bottom");
 console.log("\x1b[1m\x1b[31m*************************************************************\n****                         1.2                         ****\n*************************************************************\n");
 
 // Exercise 1 - Basic ternary operator:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 1 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 1 N ★☆☆ | --------------------");
 // Write a function canDrive that accepts age as a parameter 
 // and uses the ternary operator to determine if the user can drive. If the age is 18 or older, 
 // it should return 'You can drive'. Otherwise, it should return 'You cannot drive'.
@@ -102,7 +102,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 1 N★☆☆ | ------
     age_filter2(age2);
 
 // Exercise 2 - Use with comparison operators:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 2 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 2 N ★☆☆ | --------------------");
 // Write an expression that uses the ternary operator to determine 
 // which of the two given numbers (num1 and num2) is larger. If num1 is larger, return 'num1 is larger'. 
 // Otherwise, return 'num2 is larger'.
@@ -119,7 +119,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 2 N★☆☆ | ------
     compare_numbers(num_a, num_b);
 
 // Exercise 3 - Chained ternary operators:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 3 N★★☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 3 N ★★☆ | --------------------");
 // Write an expression that uses chained ternary operators to determine 
 // if a number is positive, negative, or zero.
 // Ternary operator with functions: Create a function findMax that accepts three parameters (a, b, c) 
@@ -150,7 +150,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 3 N★★☆ | ------
 
 
 // Exercise 4 - Ternary operator inside a loop:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 4 N★★★ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 4 N ★★★ | --------------------");
 // Write a function parOImpar that accepts an array of numbers 
 // and uses a loop to iterate through the array. Inside the loop, 
 // use the ternary operator to determine if each number is even or odd.
@@ -174,7 +174,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 4 N★★★ | ------
 console.log("\x1b[1m\x1b[31m*************************************************************\n****                         1.3                         ****\n*************************************************************\n");
 
 // Exercise 1 - Basic Callback:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 1 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 1 N ★☆☆ | --------------------");
 // Write a function called processar that accepts two parameters:
 // a number and a callback function. The processar function should invoke the callback function,
 // passing the number as a parameter.
@@ -195,7 +195,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 1 N★☆☆ | ------
 
 
 // Exercise 2 - Callbacks with Mathematical Operations:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 2 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 2 N ★☆☆ | --------------------");
 // Write a function called calculadora that accepts three parameters:
 // two numbers and a callback function. The calculadora function should invoke the callback function with the
 // two numbers as parameters. Then, call calculadora with a function that performs the addition of the two numbers.
@@ -214,7 +214,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 2 N★☆☆ | ------
 
 
 // Exercise 3 - Using Callbacks in Asynchronous Functions:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 3 N★★☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 3 N ★★☆ | --------------------");
 // Write a function called esperarISaludar
 // that accepts two parameters: a name and a callback function. The function should wait for 2 seconds and
 // then invoke the callback function, passing the name as a parameter.
@@ -236,7 +236,7 @@ console.log("Scroll down and wait 2000ms, result it will appear at the bottom");
 
 
 // Exercise 4 - Callbacks with Arrays:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 4 N★★☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 4 N ★★☆ | --------------------");
 // Write a function called processarElements that accepts two parameters:
 // an array and a callback function. The processarElements function should invoke the callback
 // function for each element of the array.
@@ -256,7 +256,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 4 N★★☆ | ------
 
 
 // Exercise 5 - Write a function processString that accepts two parameters:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 5 N★★★ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 5 N ★★★ | --------------------");
 // a string and a callback function.
 // The function processString should convert the string to uppercase and then invoke the callback
 // function with the transformed string.
@@ -289,7 +289,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 5 N★★★ | ------
 console.log("\x1b[1m\x1b[31m*************************************************************\n****                         1.4                         ****\n*************************************************************\n");
 
 // Exercise 1 - Spread Operator in Arrays:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 1 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 1 N ★☆☆ | --------------------");
 // Create two arrays, array1 and array2. Use the spread operator
 // to create a third array that contains all the elements from array1 and array2.
 
@@ -302,7 +302,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 1 N★☆☆ | ------
 
 
 // Exercise 2 - Rest Operator in Functions: 
-console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 2 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 2 N ★☆☆ | --------------------");
 // Create a function called sum that uses the rest operator to accept an indefinite
 // number of arguments and return their sum.
 
@@ -316,7 +316,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 2 N★☆☆ | ------
 
 
 // Exercise 3 - Copying Objects with Spread
-console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 3 N★★☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 3 N ★★☆ | --------------------");
 // Create an object 'object1'. Then create a second object, 'object2', that is a copy of 'object1' using the spread
 // operator. Change a property in 'object2' and check that 'object1' has not changed.
 
@@ -328,7 +328,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 3 N★★☆ | ------
 
 
 // Exercise 4 - Rest in Destructuring:
-console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 4 N★★☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 4 N ★★☆ | --------------------");
 // Create an array with several elements. Use destructuring and the rest operator to assign the first two elements
 // to variables, and then assign the rest of the elements to a third variable.
 
@@ -341,7 +341,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 4 N★★☆ | ------
 
 
 // Exercise 5 - Spread in Functions
-console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 5 N★★★ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 5 N ★★★ | --------------------");
 // Create a function that accepts three arguments. Then, create an array with three elements and call the
 // function using the spread operator with this array.
 
@@ -355,7 +355,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 5 N★★★ | ------
 
 
 // Exercise 6 - Merging Objects with Spread
-console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 6 N★★★ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 6 N ★★★ | --------------------");
 // Create two objects with different properties. Use the spread operator to merge these two objects into a new one.
 
     let obj1 = {name: "Luis", surname: "Prieto"};
@@ -371,7 +371,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 6 N★★★ | ------
 console.log("\x1b[1m\x1b[31m*************************************************************\n****                         1.5                         ****\n*************************************************************\n");
 
 // Exercise 1 - Map
-console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 1 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 1 N ★☆☆ | --------------------");
 // You have an array of numbers [1, 2, 3, 4]. Create a new array that contains the square of each number.
 
     let given_array = [1, 2, 3, 4];
@@ -381,7 +381,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 1 N★☆☆ | ------
 
 
 // Exercise 2 - Filter
-console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 2 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 2 N ★☆☆ | --------------------");
 // You have an array of numbers [1, 2, 3, 4]. Create a new array that only contains even numbers.
 
     let num_arr = [1, 2, 3, 4];
@@ -393,7 +393,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 2 N★☆☆ | ------
 
 
 // Exercise 3 - Find
-console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 3 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 3 N ★☆☆ | --------------------");
 // You have an array of numbers [1, 10, 8, 11]. Use the find function to find the first number greater than 10.
 
     let arr_num = [1, 10, 8, 11];
@@ -403,7 +403,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 3 N★☆☆ | ------
 
 
 // Exercise 4 - Reduce
-console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 4 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 4 N ★☆☆ | --------------------");
 // You have an array of numbers [13, 7, 8, 21]. Use the reduce function to calculate the total sum of the numbers.
 
     let nu_array = [13, 7, 8, 21];
@@ -413,7 +413,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 4 N★☆☆ | ------
 
 
 // Exercise 5
-console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 5 N★★☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 5 N ★★☆ | --------------------");
 // Given an array "[1, 3, 7, 10, 15, 17, 11, 5, 8, 12, 9]", create a function in a single line that does the following:
 // - Filters numbers greater than or equal to 10.
 // - Multiplies each filtered number by 2.
@@ -427,7 +427,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 5 N★★☆ | ------
 
 
 // Exercise 6 - Every / Some
-console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 6 N★★★ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.5 Ex 6 N ★★★ | --------------------");
 // Use every and some to determine if all or some of the elements in the array [11, 12, 13, 14] are greater than 10.
 
     let array_nums = [11, 12, 13, 14];
@@ -445,7 +445,7 @@ console.log("\x1b[1m\x1b[31m****************************************************
 
 
 // Exercise 1 - forEach
-console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 1 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 1 N ★☆☆ | --------------------");
 // You have an array of names. Use forEach to print each name to the console:
 
     let noms = ['Anna', 'Bernat', 'Clara'];
@@ -454,7 +454,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 1 N★☆☆ | ------
 
 
 // Exercise 2 - for-of
-console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 2 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 2 N ★☆☆ | --------------------");
 // You have an array of names. Use a for-of loop to print each name to the console:
 
     let noms2 = ['Anna', 'Bernat', 'Clara'];
@@ -466,7 +466,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 2 N★☆☆ | ------
 
 
 // Exercise 3 - filter
-console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 3 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 3 N ★☆☆ | --------------------");
 // You have an array of numbers. Use filter to create a new array that only contains even numbers.
 
     let numeros = [1, 2, 3, 4, 5, 6];
@@ -476,7 +476,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 3 N★☆☆ | ------
 
 
 // Exercise 4 - for-in
-console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 4 N★★☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 4 N ★★☆ | --------------------");
 // You have an object with key-value pairs: let obj = { name: 'Ona', age: 25, city: 'Barcelona' };
 // Use a for-in loop to print each key and its corresponding value.
 
@@ -489,7 +489,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 4 N★★☆ | ------
 
 
 // Exercise 5 - for-of with break
-console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 5 N★★☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 5 N ★★☆ | --------------------");
 // You have an array of numbers. Use a for-of loop to print the numbers until you find the number 5, then stop the loop:
 
     let numeros_arr = [1, 2, 3, 4, 5, 6];
@@ -503,7 +503,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 5 N★★☆ | ------
 
 
 // Exercise 6 - for-of with index
-console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 6 N★★★ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 6 N ★★★ | --------------------");
 // Use a for-of loop to print each element in the array and its index:
 
     let arr_noms = ['Anna', 'Bernat', 'Clara'];
@@ -520,7 +520,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 6 N★★★ | ------
 console.log("\x1b[1m\x1b[31m*************************************************************\n****                         1.7                         ****\n*************************************************************\n");
 
 // Exercise 1 - Creating a Promise
-console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 1 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 1 N ★☆☆ | --------------------");
 // Create a promise that resolves after 2 seconds and returns the string 'Hello, world'.
     console.log(`Without output | 1.7.1 | > | 1.7.2 |`)
 
@@ -532,7 +532,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 1 N★☆☆ | ------
 
 
 // Exercise 2 - Using a Promise
-console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 2 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 2 N ★☆☆ | --------------------");
 // Use the promise created in the previous exercise. Create a .then that prints the result to the console.
     console.log(`Delayed output | 1.7.2 | 2000ms of delay`)
 
@@ -540,7 +540,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 2 N★☆☆ | ------
 
 
 // Exercise 3 - Promise with reject
-console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 3 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 3 N ★☆☆ | --------------------");
 // Create a promise that resolves after 2 seconds if the input is equal to 'Hola',
 // and rejects if the input is anything else.
     console.log(`Delayed output | 1.7.3 | 2000ms of delay`)
@@ -564,7 +564,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 3 N★☆☆ | ------
 
 
 // Exercise 4 - Async/Await
-console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 4 N★☆☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 4 N ★☆☆ | --------------------");
 // Write an asynchronous function that uses the await function to wait for the result of
 // the promise created in exercise 1, and then prints that result to the console.
 
@@ -580,7 +580,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 4 N★☆☆ | ------
 
 
 // Exercise 5 - Error Handling with Async/Await
-console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 5 N★★☆ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 5 N ★★☆ | --------------------");
 // Modify the previous example to reject the promise immediately with 'Async Error' and handle the error using try/catch.
 
     console.log(`Delayed output | 1.7.5 | 2000ms of delay`)
@@ -600,7 +600,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 5 N★★☆ | ------
 
 
 // Exercise 6 - Promise.all: 
-console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 6 N★★★ | --------------------");
+console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 6 N ★★★ | --------------------");
 // Create two promises that resolve after 2 and 3 seconds, respectively. Use Promise.all
 // to wait for both promises to resolve, and print the results to the console.
 
