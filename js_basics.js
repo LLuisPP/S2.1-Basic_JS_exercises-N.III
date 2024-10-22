@@ -12,6 +12,8 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 1 N ★☆☆ | -----
     let b = 2;
     let arrow_function;
 
+    function add(a, b) {return a + b;};
+    
     arrow_function = (a, b) => a + b;
     console.log(`Variable values are a = ${a} and b = ${b}`);
     console.log("Result of ARROW FUNCTION (a, b) => (a + b) = ", arrow_function(a, b));
@@ -72,8 +74,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 4 N ★★☆ | -----
 // Exercise 5 - Arrow function with 'setTimeout':
 console.log("\x1b[1m\x1b[32m--------------------- | 1.1 Ex 5 N ★★★ | --------------------");
 console.log("Scroll down and wait 3000ms, result it will appear at the bottom");
-// Create an arrow function that prints a message to the console 
-// after waiting for 3 seconds.
+// Create an arrow function that prints a message to the console after waiting for 3 seconds.
 
     setTimeout(() => {console.log('Delayed output | 1.1.5 | with 3000ms of delay')}, 3000);
 
@@ -85,10 +86,10 @@ console.log("\x1b[1m\x1b[31m****************************************************
 
 // Exercise 1 - Basic ternary operator:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 1 N ★☆☆ | --------------------");
-// Write a function canDrive that accepts age as a parameter 
-// and uses the ternary operator to determine if the user can drive. If the age is 18 or older, 
-// it should return 'You can drive'. Otherwise, it should return 'You cannot drive'.
-
+// Write a function canDrive that accepts age as a parameter and uses the ternary operator to determine
+// if the user can drive. If the age is 18 or older, it should return 'You can drive'.
+// Otherwise, it should return 'You cannot drive'.
+/* Strict outputs? */
     let age1 = 36;
     let age2 = 17;
 
@@ -103,10 +104,9 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 1 N ★☆☆ | -----
 
 // Exercise 2 - Use with comparison operators:
 console.log("\x1b[1m\x1b[32m--------------------- | 1.2 Ex 2 N ★☆☆ | --------------------");
-// Write an expression that uses the ternary operator to determine 
-// which of the two given numbers (num1 and num2) is larger. If num1 is larger, return 'num1 is larger'. 
-// Otherwise, return 'num2 is larger'.
-
+// Write an expression that uses the ternary operator to determine which of the two given numbers 
+// (num1 and num2) is larger. If num1 is larger, return 'num1 is larger'. Otherwise, return 'num2 is larger'.
+/* Strict outputs? */
     let num_a = 73;
     let num_b = 100;
 
@@ -207,7 +207,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 2 N ★☆☆ | -----
 
     function sumar_numeros(num1, num2)
     {
-        console.log(`Sumar ${num1} + ${num2} = ${num1 * num2}`);
+        console.log(`Sumar ${num1} + ${num2} = ${num1 + num2}`);
     }
 
     calculadora(3, 4, sumar_numeros);
@@ -255,9 +255,9 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 4 N ★★☆ | -----
     processarElements(array2, parOImpar)
 
 
-// Exercise 5 - Write a function processString that accepts two parameters:
+// Exercise 5 - Function(str, callback):
 console.log("\x1b[1m\x1b[32m--------------------- | 1.3 Ex 5 N ★★★ | --------------------");
-// a string and a callback function.
+// Write a function processString that accepts two parameters a string and a callback function.
 // The function processString should convert the string to uppercase and then invoke the callback
 // function with the transformed string.
 
@@ -490,7 +490,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 4 N ★★☆ | -----
 
 // Exercise 5 - for-of with break
 console.log("\x1b[1m\x1b[32m--------------------- | 1.6 Ex 5 N ★★☆ | --------------------");
-// You have an array of numbers. Use a for-of loop to print the numbers until you find the number 5, then stop the loop:
+// You have an array of numbers. Use a for-of loop to print the numbers until you find the number 5, then stop the loop.
 
     let numeros_arr = [1, 2, 3, 4, 5, 6];
 
@@ -581,7 +581,7 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 4 N ★☆☆ | -----
 
 // Exercise 5 - Error Handling with Async/Await
 console.log("\x1b[1m\x1b[32m--------------------- | 1.7 Ex 5 N ★★☆ | --------------------");
-// Modify the previous example to reject the promise immediately with 'Async Error' and handle the error using try/catch.
+// Modify the function from exercise 4 to handle any posible error using try/catch block.
 
     console.log(`Delayed output | 1.7.5 | 2000ms of delay`)
 
