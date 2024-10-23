@@ -308,7 +308,9 @@ console.log("\x1b[1m\x1b[32m--------------------- | 1.4 Ex 2 N ★☆☆ | -----
 
     function sum(...nums) 
     {
-        console.log(`rest op shows: ${nums}`);
+        let total_sum = nums.reduce((accumulated, current) => accumulated + current, 0)
+        console.log(`rest op sum: ${total_sum}`);
+        return (total_sum);
     }
 
     sum(1,3,4,6,7,8,3);
