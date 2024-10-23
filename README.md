@@ -29,13 +29,13 @@ This exercise doesn't need any aditional software.
 Clone this repository:
   
 `````
-git clone <Repo address> /FolderName
+git clone https://github.com/LLuisPP/S2.1-Basic_JS_exercises-N.III.git Sprint2-1-JSBasics
 `````
 
 Navigate to cloned folder:
 
 `````
-cd ../FolderName
+cd Sprint2-1-JSBasics
 `````
 </div>
 
